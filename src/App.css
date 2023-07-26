@@ -1,38 +1,125 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.signup{
+  background-color: grey;
+  height: 500px;
+  width: 400px;
+  margin-left: 700px;
+  border-radius: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.signupform{
+  margin-top: 250px;
+  padding-top: 70px;
 }
+.signupinput{
+  height: 40px;
+  width: 250px;
+  border-radius: 5px;
+}
+.login{
+    background-color: grey;
+    height: 250px;
+    width: 400px;
+    margin-left: 700px;
+    border-radius: 10px;
+   
+}
+.loginform{
+    margin-top: 230px;
+    padding-top: 50px;
+    
+}
+.logininput{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.dashboard{
+  margin-top: 10px;
+}
+.dashboardnav{
+  background-color: black;
+  height: 50px;
+}
+.dashh5{
+  color: wheat;
+}
+.searchinput{
+  height: 40px;
+  width: 500px;
+  border-radius: 10px;
+  margin-left:530px ;
+}
+.searchbtn{
+  height: 40px;
+  border-radius: 10px;
+  background-color: darkgoldenrod;
+}
+table,thead,tr,th,td{
+  border: 1px solid
+}
+.logout{
+  margin-left: 600px;
+  background-color: rosybrown;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.dropdownn {
+  background-color: white ;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 1px solid grey;
+  width: 500px;
+  margin-left: 547px;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.dropdownn:empty {
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdownroww {
+  cursor: pointer;
+  text-align: start;
+  margin: 2px 0;
+
+}
+
+input {
+  width: 220px;
+}
+
+.dropdown1{
+  background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    width: 226px;
+    margin-left: 753px;
+}
+
+.dropdown1row{
+  cursor: pointer;
+  text-align: start;
+  margin: 2px 0;
+}
+/* .data{
+  display: flex;
+  justify-content: space-between;
+} */
+
+.chartdata{
+ margin-top:10px;
+ 
+}
+.datepicker{
+  display: flex;
+  justify-content: space-between;
+}
+.pricesliderx{
+  width: 200px;
+  margin-left: 20px;
 }
